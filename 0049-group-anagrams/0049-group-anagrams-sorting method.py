@@ -5,4 +5,5 @@ class Solution:
             sortedS = ''.join(sorted(s))
             res[sortedS].append(s)
         return list(res.values())
-        
+
+#Runtime : 7ms to 10 ms on Leetcode
