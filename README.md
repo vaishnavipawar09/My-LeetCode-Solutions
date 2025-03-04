@@ -24,6 +24,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0007-reverse-integer) |
 | [2383-add-two-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2383-add-two-integers) |
 ## Prefix Sum
 |  |
