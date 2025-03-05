@@ -8,6 +8,7 @@
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [1603-running-sum-of-1d-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1603-running-sum-of-1d-array) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Hash Table
 |  |
 | ------- |
@@ -21,6 +22,7 @@
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Math
 |  |
 | ------- |
@@ -31,6 +33,7 @@
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1603-running-sum-of-1d-array) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## String
 |  |
 | ------- |
@@ -41,4 +44,16 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
+## Binary Search
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Greedy
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Sliding Window
+|  |
+| ------- |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
