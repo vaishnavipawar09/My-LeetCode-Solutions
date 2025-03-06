@@ -38,6 +38,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
@@ -61,4 +62,8 @@
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
