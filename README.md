@@ -9,6 +9,7 @@
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
@@ -24,6 +25,7 @@
 | [0001-two-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
@@ -137,4 +139,8 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
