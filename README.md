@@ -65,6 +65,7 @@
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 ## Two Pointers
 |  |
 | ------- |
@@ -73,6 +74,7 @@
 | [0075-sort-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 ## Binary Search
 |  |
 | ------- |
@@ -147,4 +149,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
