@@ -17,6 +17,7 @@
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -162,6 +163,7 @@
 | [0118-pascals-triangle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 ## Database
 |  |
 | ------- |
