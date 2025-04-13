@@ -62,6 +62,7 @@
 | [0009-palindrome-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0009-palindrome-number) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2383-add-two-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2383-add-two-integers) |
 | [2998-count-symmetric-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -205,4 +206,8 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2998-count-symmetric-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+## Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 <!---LeetCode Topics End-->
