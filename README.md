@@ -185,6 +185,7 @@
 | [1258-article-views-i](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1258-article-views-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1801-average-time-of-process-per-machine](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1908-recyclable-and-low-fat-products) |
 ## Backtracking
