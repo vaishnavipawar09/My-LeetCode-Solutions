@@ -74,6 +74,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2383-add-two-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2383-add-two-integers) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2998-count-symmetric-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
@@ -192,6 +193,7 @@
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Database
 |  |
@@ -225,6 +227,7 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 ## Enumeration
 |  |
@@ -248,4 +251,8 @@
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
+## Number Theory
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 <!---LeetCode Topics End-->
