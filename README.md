@@ -21,6 +21,7 @@
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1603-running-sum-of-1d-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1603-running-sum-of-1d-array) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -128,6 +129,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Sliding Window
