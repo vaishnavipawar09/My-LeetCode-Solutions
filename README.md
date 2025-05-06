@@ -27,6 +27,7 @@
 | [1603-running-sum-of-1d-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1603-running-sum-of-1d-array) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2048-build-array-from-permutation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2249-count-the-hidden-sequences](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
@@ -143,6 +144,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2048-build-array-from-permutation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
 ## Trie
 |  |
