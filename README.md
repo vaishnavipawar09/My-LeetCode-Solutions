@@ -59,6 +59,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2915-count-of-interesting-subarrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Sorting
 |  |
@@ -90,6 +91,7 @@
 | [2998-count-symmetric-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2998-count-symmetric-integers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -110,6 +112,7 @@
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -183,6 +186,7 @@
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -218,6 +222,7 @@
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Database
 |  |
 | ------- |
