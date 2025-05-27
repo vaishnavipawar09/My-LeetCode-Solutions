@@ -226,6 +226,7 @@
 ## Database
 |  |
 | ------- |
+| [0180-consecutive-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0180-consecutive-numbers) |
 | [0197-rising-temperature](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0197-rising-temperature) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0577-employee-bonus) |
