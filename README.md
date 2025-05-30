@@ -259,6 +259,7 @@
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1908-recyclable-and-low-fat-products) |
 | [1942-primary-department-for-each-employee](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1942-primary-department-for-each-employee) |
+| [2057-count-salary-categories](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2087-confirmation-rate) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Backtracking
