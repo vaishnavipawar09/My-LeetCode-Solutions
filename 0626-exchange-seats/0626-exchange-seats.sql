@@ -1,9 +1,9 @@
 # Write your MySQL query statement below
 SELECT
   CASE
-    WHEN id % 2 = 1 AND id + 1 <= (SELECT MAX(id) FROM Seat) THEN id + 1
-    WHEN id % 2 = 0 THEN id - 1
-    ELSE id
+    WHEN id % 2 = 1 AND id + 1 <= (SELECT MAX(id) FROM Seat) THEN id + 1    #For odd
+    WHEN id % 2 = 0 THEN id - 1             #For even
+    ELSE id                                 #Last no swap 
   END AS id,
   student
 FROM Seat
