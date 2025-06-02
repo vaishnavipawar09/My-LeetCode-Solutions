@@ -21,9 +21,9 @@ FROM (
         SELECT m.title, AVG(r.rating) AS avg_rating
         FROM MovieRating r
         JOIN Movies m ON r.movie_id = m.movie_id
-        WHERE r.created_at BETWEEN '2020-02-01' AND '2020-02-29'
+        WHERE r.created_at BETWEEN '2020-02-01' AND '2020-02-29'        #requires month february
         GROUP BY r.movie_id
-        ORDER BY avg_rating DESC, title ASC
+        ORDER BY avg_rating DESC, title ASC                      #tie, return lexicographically smaller movie name.
         LIMIT 1
     ) AS top_movie
     
