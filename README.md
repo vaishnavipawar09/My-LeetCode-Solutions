@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
@@ -117,6 +118,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0075-sort-colors) |
@@ -137,6 +139,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
