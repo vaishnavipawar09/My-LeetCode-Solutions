@@ -1,5 +1,22 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+        charSet = set()                 # Track unique chars in window
+        l = 0                           # Left pointer
+        res = 0                         # Max length result
+
+        for r in range(len(s)):         # Right pointer expands using for-loop
+            while s[r] in charSet:      # If duplicate found, shrink from left
+                charSet.remove(s[l])
+                l += 1
+            charSet.add(s[r])           # Add current char
+            res = max(res, r - l + 1)   # Update max length
+
+        return res
+
+"""
+Method 3: Basic Implementation, that i thought of 
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
         l , r = 0, 0                        #Initialize two pointers
         char = set()                        #Store char in a set    
         maxlen = 0                          #Cal max length of char
@@ -16,3 +33,5 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Compleity: O(k), k is size of character set, unique characters
+
+"""
