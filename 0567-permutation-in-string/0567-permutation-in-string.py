@@ -1,4 +1,4 @@
-class Solution:
+"""class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2):  # s1 can't be a permutation of a shorter s2
             return False
@@ -43,6 +43,36 @@ class Solution:
 
 #Time Complexity: O(n)   , n is len of s2 string
 #Space Complexity: O(1)
+"""
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+        if len(s1) > len(s2): 
+            return False  # s1 cannot be a substring if it's longer than s2
+
+        l = 0
+        counts1 = {}  # Frequency map for s1
+        counts2 = {}  # Frequency map for the current window in s2
+
+        # Build frequency map for s1
+        for c in s1:
+            counts1[c] = 1 + counts1.get(c, 0)
+
+        for r in range(len(s2)):
+            # Add current character to window frequency map
+            counts2[s2[r]] = 1 + counts2.get(s2[r], 0)
+
+            # Shrink the window if it’s larger than s1
+            while (r - l + 1) > len(s1):
+                counts2[s2[l]] -= 1
+                if counts2[s2[l]] == 0:
+                    del counts2[s2[l]]  # Remove char with zero count for clean comparison
+                l += 1
+
+            # Compare the two frequency maps when the window size matches s1
+            if counts1 == counts2:
+                return True
+
+        return False  # No valid permutation found
 
 """
 class Solution:
