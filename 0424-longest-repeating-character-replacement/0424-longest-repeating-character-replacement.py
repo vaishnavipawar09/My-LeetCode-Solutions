@@ -1,38 +1,47 @@
+#Optimal Solution: Used only maxf
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        l = 0
-        count = {}
-        res = 0
-        for r in range(len(s)):
-            count[s[r]] = 1 + count.get(s[r], 0)
+        l = 0                         # Left pointer
+        maxf = 0                      # Max frequency of a single char in window
+        count = {}                    # Frequency map
+        res = 0                       # Track max window length
 
-            while (r - l + 1) - max(count.values()) > k:
+        for r in range(len(s)):       # Expand window
+            count[s[r]] = 1 + count.get(s[r], 0)
+            maxf = max(maxf, count[s[r]])  # Only update max of the current char
+
+            # Shrink window if replacements needed > k
+            while (r - l + 1) - maxf > k:  #Here (r - l + 1) is the window size
                 count[s[l]] -= 1
                 l += 1
-            
-            res = max(res, r - l + 1)
+
+            res = max(res, r - l + 1) # Update max length of valid window
         return res
 
-    
+#Time Complexity: O(n)
+#Space Complexity : O(m) , m is unique characters
+
+
 """
+Method: Main code to understand completely : O(26. n)
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        l = 0
-        maxf = 0
-        count = {}
-        res = 0
-        
-        for r in range(len(s)):
+        l = 0                         # Left pointer of the sliding window
+        count = {}                    # Store frequency of characters in window
+        res = 0                       # Store max window size (final answer)
+
+        for r in range(len(s)):       # Expand window by moving right pointer
             count[s[r]] = 1 + count.get(s[r], 0)
-            maxf = max(maxf, count[s[r]])
 
-            if (r - l + 1) - maxf > k:
-                count[s[l]] -= 1      # shrink logic fix
+            # If too many characters need to be replaced (> k), shrink window
+            while (r - l + 1) - max(count.values()) > k:  #Here (r - l + 1) is the window size
+                count[s[l]] -= 1      # Shrink from left
                 l += 1
-            
-            res = max(res, r - l + 1) # update result here
 
+            res = max(res, r - l + 1) # Update result if window is valid
         return res
 
+Time Complexity: O(26.n)
+Space Complexity : O(m) , m is unique characters
+    
 """
-
