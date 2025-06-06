@@ -51,6 +51,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
@@ -115,6 +116,7 @@
 | [0014-longest-common-prefix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0058-length-of-last-word) |
+| [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
@@ -159,6 +161,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
