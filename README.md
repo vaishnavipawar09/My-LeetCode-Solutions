@@ -119,6 +119,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
@@ -248,6 +249,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0118-pascals-triangle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -308,6 +310,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bit Manipulation
 |  |
