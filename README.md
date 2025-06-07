@@ -67,6 +67,7 @@
 | [2626-count-the-number-of-good-subarrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2915-count-of-interesting-subarrays) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3548-find-the-count-of-good-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -127,6 +128,7 @@
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Two Pointers
 |  |
@@ -159,6 +161,7 @@
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Sliding Window
 |  |
 | ------- |
@@ -192,6 +195,7 @@
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Merge Sort
 |  |
 | ------- |
@@ -363,6 +367,7 @@
 | [0020-valid-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0155-min-stack) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Monotonic Stack
 |  |
 | ------- |
