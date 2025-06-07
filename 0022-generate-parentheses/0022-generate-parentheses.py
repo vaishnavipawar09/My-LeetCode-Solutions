@@ -23,4 +23,6 @@ class Solution:
         backtrack(0, 0)                 #intial opening and closed count
         return res
 
+#Time Complexity:O ( 4 ^ n / sq root(n))
+#Space Complexity: O(n)     Stack 
         
