@@ -12,6 +12,7 @@
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0075-sort-colors) |
+| [0084-largest-rectangle-in-histogram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0118-pascals-triangle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -381,6 +382,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
@@ -390,6 +392,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0883-car-fleet) |
 <!---LeetCode Topics End-->
