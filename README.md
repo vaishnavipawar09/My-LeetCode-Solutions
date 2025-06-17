@@ -31,6 +31,7 @@
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [0883-car-fleet](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0883-car-fleet) |
+| [0907-koko-eating-bananas](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -160,6 +161,7 @@
 | [0074-search-a-2d-matrix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0792-binary-search](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
