@@ -8,26 +8,28 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        slow, fast = head, head.next                     #create two ptrs, one fast and other second
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+        slow, fast = head, head                     #create two ptrs, one fast and other second
+        while fast and fast.next:                   #run till you get one empty
+            slow = slow.next                        #move by 1 step
+            fast = fast.next.next                   #move by 2 step
 
-        second = slow.next
-        slow.next = None
-        prev = None
-        while second:
+        #find the mid value, and divide the list(find second half of list) and reverse it
+        second = slow.next                      #begin the second half of the list
+        slow.next = None                        #split the second list
+        prev = None                             #set pre to null
+        while second:                           #Reverse the second half of the list
             tmp = second.next
             second.next = prev
             prev = second
             second = tmp
 
-        first, second = head, prev
-        while second:
-            tmp1, tmp2 = first.next, second.next
-            first.next = second
+        #merge the two lists
+        first, second = head, prev              #where the first and second half starts
+        while second:                           #keep going until one ptr is null
+            tmp1, tmp2 = first.next, second.next    #store next nodes in the temp node
+            first.next = second                 #reassign that is insert in between the nodes
             second.next = tmp1
-            first, second = tmp1, tmp2
+            first, second = tmp1, tmp2          #shift our ptrs, of the both the list
 
 #Time Complexity: O(n)
 #Space Complexity: O(1)
