@@ -22,8 +22,10 @@ class Solution:
         curr = head
         while curr:
             copy = hashmap[curr]
-            copy.next = hashmap[curr.next] if curr.next else None
-            copy.random = hashmap[curr.random] if curr.random else None
+            if curr.next:
+                copy.next = hashmap[curr.next]
+            if curr.random:
+                copy.random = hashmap[curr.random] 
             curr = curr.next
 
         return hashmap[head]
