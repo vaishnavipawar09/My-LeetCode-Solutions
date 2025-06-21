@@ -67,6 +67,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
@@ -259,11 +260,13 @@
 | [0138-copy-list-with-random-pointer](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [1023-time-based-key-value-store](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1023-time-based-key-value-store) |
@@ -435,4 +438,8 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0883-car-fleet) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
