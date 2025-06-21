@@ -26,6 +26,7 @@
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -161,6 +162,7 @@
 | [0141-linked-list-cycle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
@@ -174,6 +176,7 @@
 | [0074-search-a-2d-matrix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1023-time-based-key-value-store) |
@@ -357,6 +360,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Combinatorics
 |  |
