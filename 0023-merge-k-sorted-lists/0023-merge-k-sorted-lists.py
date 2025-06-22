@@ -39,3 +39,8 @@ class Solution:
             tail.next = l2    
             
         return dummy.next           #return the dummy list
+
+
+
+    #Time Complexity : O(n log K), k = total lists, n = total nodes accross k lists
+    #Space Complexity: O(k)
