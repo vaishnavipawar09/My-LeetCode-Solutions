@@ -15,7 +15,7 @@ class Solution:
         
         self.invertTree(root.left) #Use recusrion to swap the left nodes child, here the base caseis handled by above
         self.invertTree(root.right) #Use recusrion to swap the right nodes child, here the base caseis handled by above
-        return root
+        return root                 #Return the root (tree)
 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
