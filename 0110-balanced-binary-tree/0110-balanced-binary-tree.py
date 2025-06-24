@@ -21,3 +21,7 @@ class Solution:
             return [balanced, 1 + max(left[1], right[1])]     # Return [Is this subtree balanced?, What’s its height]
        
         return dfs(root)[0]     # The final answer is whether the whole tree is balanced (just the bool part!)
+
+#Time Complexity: O(n)
+#Space Complexity: O(h)     H height of tree, Balanced tree best case ; O(log n)
+                                               # worst case is O(n)
