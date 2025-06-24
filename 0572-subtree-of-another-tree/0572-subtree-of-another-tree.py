@@ -21,10 +21,11 @@ class Solution:
     
     # Helper function: checks if two trees are identical
     def isSameTree(self, p, q):
-        if not p and not q:
+        if not p and not q: #if both the tree are none, that means they are same so return True
             return True
-        if not p or not q or p.val != q.val:
+        if not p or not q or p.val != q.val: #if even one is empty, no same tree, so False, or if val dont match
             return False
+        #here we check if both are not empty, then check if their values match, also check the left and right subtree
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 #Time Complexity: O(m * n)
