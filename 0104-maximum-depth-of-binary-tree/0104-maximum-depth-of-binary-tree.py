@@ -19,12 +19,21 @@ class Solution:
     #Time Complexity: O(n)
     #Space Complexity: O(n)
 
-
+'''
 #Method 2 : Using Iterative DFS
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if root is None:                #Handles all the base case, if the root is empty, there is no depth 
-            return 0 
+        stack = [[root, 1]]     #Add pair of values, the root and the depth
+        res = 0         #set to 0, cause if we have a null node, th if wont execute
+
+        while stack:
+            node, depth = stack.pop()   #we are popping 2 values, the node and the depth
+
+            if node:            #if node not null
+                res = max(res, depth)       #res max of itself
+                stack.append([node.left, depth + 1])    #add the children of left and the depth
+                stack.append([node.right, depth + 1])   #add the children of right with depth 
+        return res                  #return the res
 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
@@ -49,3 +58,4 @@ class Solution:
         return level                #if queue is empty return the total no. of level
 #Time Complexity: O(n)
 #Space Complexity: O(n)
+'''
