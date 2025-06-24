@@ -11,3 +11,7 @@ class Solution:
                 k+=1                        #increment k
                 
         return k                            # Length of array with each value at most twice
+
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)
