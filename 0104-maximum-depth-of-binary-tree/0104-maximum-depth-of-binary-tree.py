@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 
-
+'''
 #Method 1 : Using Recursion
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -19,7 +19,7 @@ class Solution:
     #Time Complexity: O(n)
     #Space Complexity: O(n)
 
-'''
+
 #Method 2 : Using Iterative DFS
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -37,7 +37,7 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
-
+'''
 #Method 3 : Using BFS
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -57,4 +57,3 @@ class Solution:
         return level                #if queue is empty return the total no. of level
 #Time Complexity: O(n)
 #Space Complexity: O(n)
-'''
