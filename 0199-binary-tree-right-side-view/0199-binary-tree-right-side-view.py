@@ -6,22 +6,27 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        q = collections.deque()
-        q.append(root)
-
-        res = []
-
-        while q:
-            qlen = len(q)
-            rightside = None
-
-            for i in range(qlen):
-                node = q.popleft()
-                if node:
-                    rightside =node
-                    q.append(node.left)
-                    q.append(node.right)
-            if rightside:
-                res.append(rightside.val)
-        return res
+        if root is None:        #handle base case if root is none
+            return []
         
+        res = []                #create one to store result
+        q = collections.deque() #initailize the queue
+        q.append(root)          #first value to be added to the queue is the root value
+
+
+        while q:                #while q is not empty, iterates through the whole tree
+            qlen = len(q)       #cal the length of the queue
+            rightside = None    #initialize rightside to None
+
+            for i in range(qlen):   #itearate through the whole queue
+                node = q.popleft()  #as it is FIFO, we always pop from left, pop the node out and add its children 
+                if node:            #if the node is not empty and has children append it to the queue
+                    rightside =node #set the rightside o the node
+                    q.append(node.left) #add the left and right child nodes to the queue
+                    q.append(node.right)
+            if rightside:           #if rightside not empty
+                res.append(rightside.val)   #add only the right side node values to the result list
+        return res                  #return the lisyt containing only rightside
+        
+#Time Complexity: O(n)
+#Space Complexity: O(n)
