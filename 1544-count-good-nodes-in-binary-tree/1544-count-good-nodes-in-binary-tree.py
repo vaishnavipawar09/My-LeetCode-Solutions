@@ -4,19 +4,22 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        q = collections.deque()
+        q= collections.deque()
         q.append([root, root.val])
+        maxval= 0
         good = 0
-        maxsofor = 0
         while q:
-            node, maxsofar= q.popleft()
-            if node.val >= maxsofar:
+            node, maxval = q.popleft()
+            if node.val >= maxval:
                 good += 1
             if node.left:
-                q.append([node.left, max(node.left.val, maxsofar, node.val)])
+                q.append([node.left, max(maxval, node.val)])
+
             if node.right:
-                q.append([node.right, max(node.right.val, maxsofar, node.val)])
+                q.append([node.right, max(maxval, node.val)])
+
         return good
-        
+
