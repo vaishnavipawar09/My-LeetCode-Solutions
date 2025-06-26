@@ -30,23 +30,23 @@ class Solution:
 #Method 2 : DFS but Optimal
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        preIdx = inIdx = 0
+        preIdx = inIdx = 0                  #start the two ptr at the start
 
-        def dfs(limit):
-            nonlocal preIdx, inIdx
+        def dfs(limit):                     #create the helper function
+            nonlocal preIdx, inIdx          #set to nonlocal
 
-            if preIdx >= len(preorder):
+            if preIdx >= len(preorder):     #condition to cal the left subtree, if it goes over the len return None
                 return None
-            if inorder[inIdx] == limit:
-                inIdx += 1
+            if inorder[inIdx] == limit:     #if the ind matches the limit, for right subtree
+                inIdx += 1                  #increment the inorder index
                 return None
 
-            root = TreeNode(preorder[preIdx])
-            preIdx += 1
-            root.left = dfs(root.val)
-            root.right = dfs(limit)
-            return root
-        return dfs(float('inf'))
+            root = TreeNode(preorder[preIdx])   #set root at start, which will at the start of preorder
+            preIdx += 1                         #move through the preorder list
+            root.left = dfs(root.val)           #recursion to create the left subtree
+            root.right = dfs(limit)             #recursion to create the right subtree
+            return root                         #return the root
+        return dfs(float('inf'))                #return and close the function
         
 
 #Time Complexity: O(n)
