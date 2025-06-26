@@ -20,6 +20,6 @@ class Solution:
             curr = curr.right       #then we can start going to the right subtree
 
 
-#Time Complexity: O(n)
-#Space Complexity: O(n)
+#Time Complexity: O(n), worst case 
+#Space Complexity: O(n), in worst case, unbalanced tree
         
