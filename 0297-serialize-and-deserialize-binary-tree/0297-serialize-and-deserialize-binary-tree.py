@@ -47,7 +47,8 @@ class Codec:
 
         return dfs()
         
-
+#Time Complexity: O(n)
+#Space Complexity: O(n)
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
 # deser = Codec()
