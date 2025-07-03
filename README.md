@@ -155,6 +155,7 @@
 | [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -294,6 +295,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0155-min-stack) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [1023-time-based-key-value-store](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1023-time-based-key-value-store) |
@@ -450,6 +452,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Graph
@@ -493,6 +496,7 @@
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -508,6 +512,7 @@
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -525,6 +530,7 @@
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
