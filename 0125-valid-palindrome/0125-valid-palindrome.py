@@ -29,7 +29,7 @@ class Solution:
 Solution 1: Uses a lot of functions, and we use extra memory 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        newstr = "                          #Create a new str
+        newstr = ""                          #Create a new str
 
         for c in s:
             if c.isalnum():                 #Convert to alpha numeric
