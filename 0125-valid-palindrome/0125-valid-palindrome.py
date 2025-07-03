@@ -25,6 +25,16 @@ class Solution:
   #Time Complexity: O(n)
   #space complexity : O(1)
 
+
+#Dry RUn:
+#s = race a car
+
+#l = 0, r = 9 0< 9, r = r , l = 1, r =8
+#1<8 , a = a , l= 2, r = 7
+#2< 7 , c =c , l =3, r = 6
+#3< 6, r not alphanumeric, r = 5
+#3< 5 , e != a , return False
+
 """
 Solution 1: Uses a lot of functions, and we use extra memory 
 class Solution:
