@@ -13,39 +13,39 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        res = []
+        res = []                    #Empty string
 
-        def dfs(node):
-            if not node:
-                res.append("N")
+        def dfs(node):              #Helper function
+            if not node:            #if node is null
+                res.append("N")     #Append a N char 
                 return
-            res.append(str(node.val))
-            dfs(node.left)
-            dfs(node.right)
+            res.append(str(node.val)) #Append the vale to the res
+            dfs(node.left)              #traverse on left subtree
+            dfs(node.right)             #traverse on right subtree
 
-        dfs(root)
-        return ",".join(res)
-
+        dfs(root)                       #pass the root val
+        return ",".join(res)            #Join by the , delimeter
+        
     def deserialize(self, data):
         """Decodes your encoded data to tree.
         
         :type data: str
         :rtype: TreeNode
         """
-        vals = data.split(",")
-        self.i = 0
+        vals = data.split(",")          #split by the , (comma) delimeter
+        self.i = 0                      #a ptr global
 
-        def dfs():
-            if vals[self.i] == "N":
-                self.i += 1
+        def dfs():                      #helper funt for recursion 
+            if vals[self.i] == "N":     #if N return the Null node
+                self.i += 1             #icrement i so next val will be there
                 return None
-            node = TreeNode(int(vals[self.i]))
-            self.i += 1
-            node.left = dfs()
-            node.right = dfs()
-            return node
+            node = TreeNode(int(vals[self.i]))  #conert to int and then pass the value
+            self.i += 1                 #increment i to move to next
+            node.left = dfs()           #left subtree
+            node.right = dfs()          #right subtree
+            return node                 #return the root node of the tree
 
-        return dfs()
+        return dfs()                    #call dfs and return the tree
         
 #Time Complexity: O(n)
 #Space Complexity: O(n)
