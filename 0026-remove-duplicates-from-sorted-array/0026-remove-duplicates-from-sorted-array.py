@@ -10,3 +10,9 @@ class Solution:
         
 #Time Complexity: O(n)
 #Space Complexity: O(1)
+
+#Dry Run : nums = [1, 1, 2]
+# 1. k  1, i = 0, nums[0] != nums[0], 1 != 1, no , i = 1 ,  nums = [1, 1, 2]
+# 2. k =1, i = 1, nums[1] ! = nums[0], 1 !=1 no, i = 2, nums = [1, 1, 2]
+# 3. k = 1, i = 2, nums[2] != nums[0], 2 != 1, yes, nums[1] = nums[2] = 2, k = 2 nums = [1, 2 , 2]
+# 4. k =2, i = 3, the max length was 2 , not allowed, k = 2, output is k = 2
