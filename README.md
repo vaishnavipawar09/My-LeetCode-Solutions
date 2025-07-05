@@ -46,6 +46,7 @@
 | [0907-koko-eating-bananas](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1127-last-stone-weight](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1127-last-stone-weight) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
@@ -252,6 +253,7 @@
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1127-last-stone-weight](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1127-last-stone-weight) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Merge Sort
 |  |
