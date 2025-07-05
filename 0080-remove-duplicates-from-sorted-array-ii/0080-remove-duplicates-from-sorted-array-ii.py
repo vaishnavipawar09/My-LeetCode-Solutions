@@ -15,3 +15,13 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Complexity: O(1)
+
+#Dry Run nums = [1, 1, 1, 2, 2, 3]
+#. k = 0, i = 0, i < 6, k< 0< 2 yes, nums[k]= nums[i] nums[0] = 1, k =1         nums= [1, 1, 1, 2, 2, 3]
+# k = 1, i = 1, 1< 6, 1< 2 yes, nums[k] = nums[i] nums[1] = 1, k =2             nums= [1, 1, 1, 2, 2, 3]
+# k = 2, i = 2, 2< 6, 2< 2 no, else, nums[i] != nums[k-2] nums[2] != nums[0] 1!=1 no, cause they are equal, skip
+# k = 2, i =3 2<2 no, else nums[3] != nums[0] 2!= 1 yes, nums[2] = 2, k = 3     nums = [1, 1, 2, 2, 2, 3]
+# k = 3, i = 4, 4<6, 2<2 no, else nums[4] != nums[1], 2!= 1 yes, nums[3] = 2, k = 4 nums= [1, 1, 2, 2, 2, 3]
+# k = 4, i =5, 5<6, 4< 2 no, else nums[5] != nums[2] 3!= 2, yes, nums[4] = 3, k = 5 nums = [1, 1, 2, 2, 3, 3]
+# k = 5 , i =6, 6< 6 no, break out of for loop return k , here k is 5
+#Output = 5
