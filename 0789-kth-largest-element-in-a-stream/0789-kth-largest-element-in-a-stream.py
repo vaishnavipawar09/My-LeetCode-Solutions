@@ -1,6 +1,6 @@
+import heapq
 class KthLargest:
-    import heapq
-
+    
     def __init__(self, k: int, nums: List[int]):
         self.k = k                          #initialize k to k
         self.heap = nums                    #initialize minheap to nums
