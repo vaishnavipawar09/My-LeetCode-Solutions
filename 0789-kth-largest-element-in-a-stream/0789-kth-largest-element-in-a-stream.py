@@ -9,7 +9,7 @@ class KthLargest:
             heapq.heappop(self.heap)        #pop the smallest value, which will be on top/last
         
 
-    def add(self, val: int) -> int:
+    def add(self, val: int) -> int:         #Here in this function we will always reference with self
         heapq.heappush(self.heap, val)      #add the value in the heap
         if len(self.heap) > self.k:         #If heap goes over the fixed limit of k
             heapq.heappop(self.heap)        #pop the smallest value, which will be on top/last
