@@ -30,6 +30,22 @@ class Solution:
 
 #Time Complexity : O(m) , m = number of tasks 
 #Pop Minimum O(log n) = O(log 26) = O(n)
-
-
 #Space Complexity: O(1), at most 26 characters
+
+
+"""Implementation Steps:
+Implementation Steps for “Task Scheduler”
+1. Count Task Frequencies: Use a hash map (Counter) to count how many times each task appears.
+2. Build a Max Heap: a] For greedy scheduling, always select the task with the highest remaining count.
+    b]Since Python’s heapq is a min-heap, store negative frequencies so the most frequent is on top.
+3. Prepare for Scheduling with Cooldown: a] Use a queue (deque) to keep track of tasks that are “cooling down.”
+    b]Each item in the queue is a pair:[remaining_count_after_this_round, time_when_task_is_available_again]
+4. Simulate Each Time Slot: For each unit of time:
+    a]Increment time (every loop iteration is one time unit, regardless if idle or busy).
+    b]If the heap isn’t empty, pop the most frequent task, process it (decrement count).
+    c]If the processed task has remaining counts, push it into the cooldown queue with time it becomes available again(time + n).
+5. Cooldown Management: a]After each time unit, check if any task’s cooldown is done (q[0][1] == time).
+    b]If yes, push it back into the heap for possible scheduling.
+6. End Condition: Repeat the above until there are no tasks left to schedule (maxheap and q are both empty).
+7. Result:The value of time at the end is the minimum number of CPU intervals required.
+"""
