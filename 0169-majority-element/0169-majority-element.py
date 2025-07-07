@@ -34,3 +34,13 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 """
 
+#Dry RUn
+#NUMS = [2, 2, 1, 1, 1, 2, 2]
+#1. res = 0, cnt = 0, n = 2, cnt == 0, 0 ==0 yes, res = 2, 2 == res(2) yes, cnt = 1
+# 2. res = 2, cnt = 1, n = 2, 1 == 0 no, 2 ==2 yes, cnt = 2
+# 3. res = 2, cnt = 2, n = 1, 2 == 0 no, 1 == 2 , no , cnt -= 1, cnt = 1
+# 4. res = 2, cnt =1, n = 1, 1 ==0 , no, 1 == 2 no, cnt = 0
+# 5. res = 2, cnt = 0, n = 1, 0 == 0 yes, res = 1, 1 == 1 yes, cnt = 1
+# 6. res = 1, cnt = 1, n= 2, 1 == 0 no, res = 1,1 == 2 no, cnt -=1 cnt = 0
+# 7. res = 1, cnt = 0, n = 2, 0 == 0 yes, res = 2, 2 == 2 yes, cnt = 1
+# 8. no more n in mums exit loop , return res = 2 Output = 2
