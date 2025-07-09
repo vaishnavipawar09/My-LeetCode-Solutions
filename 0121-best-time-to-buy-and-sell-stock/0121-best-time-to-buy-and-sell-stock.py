@@ -17,7 +17,16 @@ class Solution:
         #Time Complexity: O(n), loops only once
         #Space Complexity: O(1) , no extra memory needed
 
-        """
+#Dry Run
+#   1 maxprofit = 0, minprice = 7, i = 0 prices[0] =7 profit= 0
+#   2 m = 0, minprice = 7, i = 1 prices[1] = 1, minprice = 1
+#   3 m = 0, min = 1, i =2, prices[2] = 5 else profit = 5-1 = 4 maxpprofit = 4
+#   4 m = 4, min = 1, i = 3 prices[3]  3 else profit = 3 - 1 = 2 
+#   5 m = 4, min = 1 i =4 prices[4] = 6 else profit = 6-1  5 5> 4 maxprofit = 5
+#   6 m =5, min = 1, i =5 p[5]= 4, else profit = 4-1 = 3 
+#   return max = 5
+
+"""
         Method 2: Sliding window/ Two Pointers
         l, r = 0, 1                     # l = buying day, r = potential selling day
         maxP = 0                        # Track the max profit seen so far
