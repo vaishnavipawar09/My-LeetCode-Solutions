@@ -41,6 +41,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0621-task-scheduler](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
@@ -340,11 +341,13 @@
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -482,6 +485,7 @@
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Graph
@@ -546,6 +550,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
