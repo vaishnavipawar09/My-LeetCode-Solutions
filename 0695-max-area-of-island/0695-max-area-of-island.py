@@ -71,39 +71,50 @@ class Solution:
 
 """
 #BFS Approach : Iterative
+from collections import deque
+
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         if grid is None:
-            return 0
+            return 0  # If grid is None, no area
 
-        rows, cols = len(grid), len(grid[0])
-        area = 0
-        visited = set()
-        directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+        rows, cols = len(grid), len(grid[0])   # Get dimensions of the grid
+        area = 0                               # To track the max area found
+        visited = set()                        # Set to keep track of visited cells
+        directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]  # Down, Up, Right, Left
 
         def bfs(r, c):
-            q = deque()
-            visited.add((r,c))
-            q.append((r,c))
-            curr_area = 1
+            q = deque()                # Initialize a queue for BFS
+            visited.add((r, c))        # Mark the starting cell as visited
+            q.append((r, c))           # Enqueue the starting cell
+            curr_area = 1              # Area of this island
 
             while q:
-                row, col = q.popleft()
+                row, col = q.popleft() # Pop the cell to process neighbors
                 for dr, dc in directions:
-                    nr, nc = dr + row, dc + col
-                    if(nr < 0 or nc < 0 or nr >= rows or nc >= cols or grid[nr][nc] == 0 or (nr, nc) in visited):
-                        continue
+                    nr, nc = row + dr, col + dc    # Compute neighbor's coordinates
+                    # Check bounds, is land, and not visited yet
+                    if (nr < 0 or nc < 0 or nr >= rows or nc >= cols or 
+                        grid[nr][nc] == 0 or (nr, nc) in visited):
+                        continue    # Skip water, out-of-bounds, or visited
 
-                    visited.add((nr,nc))
-                    q.append((nr,nc))
-                    curr_area  += 1
-            return curr_area
-
+                    visited.add((nr, nc))   # Mark neighbor as visited
+                    q.append((nr, nc))      # Add neighbor to queue
+                    curr_area += 1          # Increase area by 1 for this cell
+            return curr_area                # Return area of this island
 
         for r in range(rows):
             for c in range(cols):
-                if grid[r][c] == 1:
-                    area = max(area, bfs(r, c))
-        return area
+                # Only start BFS if the cell is land (1) and not yet visited
+                if grid[r][c] == 1 and (r, c) not in visited:
+                    area = max(area, bfs(r, c))  # Update max area if needed
+        return area   # Return the maximum island area found
+   
+   
+   # Time Complexity: O(m * n)
+        #   - Each cell is visited at most once.
+        # Space Complexity: O(m * n)
+        #   - In the worst case (all land), the recursion stack and visited set
+        #     will be size O(m * n), where m and n are the grid dimensions.
 
 """
