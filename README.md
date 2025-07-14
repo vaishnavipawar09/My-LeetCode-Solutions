@@ -35,6 +35,7 @@
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0274-h-index) |
+| [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
@@ -342,6 +343,7 @@
 | [0036-valid-sudoku](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
@@ -486,6 +488,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
