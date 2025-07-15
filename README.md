@@ -51,6 +51,7 @@
 | [0907-koko-eating-bananas](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1036-rotting-oranges](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1127-last-stone-weight](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1127-last-stone-weight) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -345,6 +346,7 @@
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -491,6 +493,7 @@
 | [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Graph
