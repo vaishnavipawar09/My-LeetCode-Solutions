@@ -495,6 +495,7 @@
 | [0133-clone-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -507,6 +508,7 @@
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 ## Stack
 |  |
@@ -562,6 +564,7 @@
 | [0133-clone-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -613,4 +616,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
