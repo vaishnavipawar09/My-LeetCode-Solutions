@@ -168,6 +168,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
@@ -189,6 +190,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -367,6 +369,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
