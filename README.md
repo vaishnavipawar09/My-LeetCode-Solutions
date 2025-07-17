@@ -46,6 +46,7 @@
 | [0621-task-scheduler](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
@@ -374,6 +375,7 @@
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0747-min-cost-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
