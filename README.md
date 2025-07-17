@@ -175,6 +175,7 @@
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0091-decode-ways](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -375,6 +376,7 @@
 | [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
