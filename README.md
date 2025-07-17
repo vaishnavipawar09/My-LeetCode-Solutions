@@ -182,6 +182,7 @@
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [1023-time-based-key-value-store](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1023-time-based-key-value-store) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -209,6 +210,7 @@
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
@@ -382,6 +384,7 @@
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0647-palindromic-substrings](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0868-push-dominoes) |
