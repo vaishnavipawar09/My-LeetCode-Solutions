@@ -137,6 +137,7 @@
 | [0002-add-two-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
@@ -365,6 +366,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -632,4 +634,8 @@
 | ------- |
 | [0207-course-schedule](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
