@@ -50,24 +50,4 @@ class Solution:
 #Otherwise, root is the split point, and hence the LCA.
 
 
-class TreeNode:
-    def __init__(self, val, left, right):
-        self.val = val
-        self.left =  left
-        self.right = right
-
-class Solution:
-    def lowestCommonAncestor(self, root: Optional[TreeNode], p: Optional[TreeNode], q : [TreeNode]):
-        if root is None:
-            return root
-
-        curr = root
-        while root:
-            if p.val < curr.val and q.val < curr.val:
-                curr = curr.left
-            elif p.val> curr.val and q.val > curr.val:
-                curr = curr.right
-            else:
-                return curr
-
 
