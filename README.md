@@ -143,6 +143,7 @@
 | [0070-climbing-stairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0189-rotate-array) |
+| [0224-basic-calculator](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0368-largest-divisible-subset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
@@ -177,6 +178,7 @@
 | [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
+| [0224-basic-calculator](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
@@ -476,6 +478,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [2050-count-good-numbers](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 ## Binary Indexed Tree
 |  |
@@ -543,6 +546,7 @@
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0739-daily-temperatures](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
