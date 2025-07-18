@@ -10,13 +10,15 @@ class Solution:
         if not root or root == p or root == q:      # If root is None, or we've found p or q, return root
             return root
 
+         # Search in left and right subtrees
         left = self.lowestCommonAncestor(root.left, p, q)
         right = self.lowestCommonAncestor(root.right, p, q)
 
+        # If both sides returned a node, root is the LCA
         if left and right:
             return root
 
-        return left or right 
+        return left or right # Otherwise, return the non-null side
 
 
 # root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
