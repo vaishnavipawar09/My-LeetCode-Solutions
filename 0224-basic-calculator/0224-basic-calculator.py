@@ -27,7 +27,6 @@ class Solution:
         sign = 1  # =ve , -ve -1
         num = 0
 
-
         for char in s:
             if char.isdigit():
                 num = num * 10 + int(char)  # multi digit 
@@ -53,5 +52,33 @@ class Solution:
 
         res += sign * num
         return res
+
+
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)
+
+
+#Dry Run: (1 +(5 +4+2) -3) +(6 + 8)
+# stack = [], res = 0 sign = 1, num =0
+# (  stack = [0, 1] res = 0, sign =1
+# 1 num = 1 sign = 1, res = 0
+# + res = 1, sign = 1, num  =0 
+# ( stack = [0, 1, 1, 1], res = 0, sign = 1
+# 5 num = 5 , sign = 1, res = 0
+# + res = 5 * 1= 5 , sign = 1, num = 0
+# 4 num = 4, sign = 1, res = 5
+# + res =res = 4, res = 5+4 = 9, sign = 1, num = 0
+# 2 num = 2, sign = 1, res = 9
+# ) res = 2 * 1 + res = 2 +9 = 11, pop sign (11 * sign -> 11 * 1), pop res ( 1 + 11) = 12 stack = [0, 1]
+# - res = 12, num = 0, sign = -1
+# 3 num = 3, sign = -1, res = 12
+# ) res = num * sign + res -> res = 12 -3 = 9, pop sign (9 * 1) = 9 , pop res 0+9 = 9 
+# + res = 9 + (0* 1) = 9, sign = 1, num = 0
+# ( stack =[9, 1] res = 0, sign = 1
+# 6 num = 6, sign = 1, res = 0
+# + res = res +(sign * num) -> res = 0 +(1*6) -> 6
+# 8 num = 8 , sign = 1, res = 6
+# ) res = 6 + 8 = 14 , res = 14 * 1 = 14 , ree = 14 + 9 = 23
+
 
         
