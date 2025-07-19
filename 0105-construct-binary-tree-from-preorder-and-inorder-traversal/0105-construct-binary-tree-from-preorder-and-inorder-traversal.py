@@ -5,9 +5,8 @@
 #         self.left = left
 #         self.right = right
 
+#Best Solution to solve is this by Neetcode
 
-"""
-Best Solution to solve is this by Neetcode
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder or not inorder:         #Base Case if not preorder or inorder return none
@@ -23,9 +22,35 @@ class Solution:
 
         return root                             #Return the tree nodes
 
+#Dry Run: preorder [3, 9, 20, 15, 7]  inorder [9, 3, 15, 20, 7]
+# root= 3, mid = 1 inorder[1] leftsubtree preorder[1:2] inorder[0:1] = 9
+# root = 9 null 
+# right subtree preorder[2:4] = [20, 15, 7] inorder[2:4]= [15, 20, 7]
+# root = 20 found inorder[3] mid = 3,  left preorder[3:4] = 15 inorder[2:3] = 15
+#right preorder[4:4] = 7 inorder[4:4] = 7
+
 #Time Complexity: O(n^2) this is worst case
 #Space Complexity: O(n)
+
+#Clarifying Questions:
+#Are values unique in both arrays? Yes, by constraint.
+#Are preorder and inorder both for the same tree? Yes.
+#Will the arrays always be non-empty and of equal length? Yes.
+#Is TreeNode definition provided? Assume yes, as per LeetCode.
+#Can we assume valid input (i.e., arrays correspond to a valid binary tree)?Yes.
+
+#preorder = [1], inorder = [1] → single node.
+#preorder = [3,9,20,15,7], inorder = [9,3,15,20,7] → standard exampl
+
+#3. Approach: Key Insight: Preorder: root, left, right. Inorder: left, root, right. The first value in preorder is always the root.
+#In inorder, everything to the left of the root is in the left subtree, everything to the right is in the right subtree.
+#Algorithm: Find the root in inorder. Recursively build left and right subtrees using slices of preorder/inorder.
+#Optimization: Use a hashmap to store inorder value → index for O(1) lookup.
+
+#“Preorder gives root; inorder slices left/right. Recursively build by finding root’s index in inorder.”
 """
+
+
 
 #Method 2 : DFS but Optimal
 class Solution:
@@ -52,3 +77,4 @@ class Solution:
 #Time Complexity: O(n)
 #Space Complexity: O(n)
 
+"""
