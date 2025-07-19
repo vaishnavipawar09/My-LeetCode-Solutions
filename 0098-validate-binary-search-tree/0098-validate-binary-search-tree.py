@@ -25,3 +25,21 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
+
+
+#Clarifying Questions
+#Is the input always a valid binary tree?  Yes.
+#Can node values be negative? Yes, node values can be negative.
+#Are node values unique? Not necessarily, but a BST must have unique values by definition (for this problem).
+#Is the input a TreeNode class? Yes.
+#What should I return if the tree is empty? Per constraints, always at least one node.
+
+"""
+Approach (How do we check for a BST?)
+At each node, check that all values in the left subtree are less than the current node, and all values in the right subtree are greater.
+To do this efficiently, pass down a range (min, max) to each node:
+    The node’s value must be within (min, max).
+    For the left child: max becomes node.val
+    For the right child: min becomes node.val
+Recursively verify for every node.
+"""
