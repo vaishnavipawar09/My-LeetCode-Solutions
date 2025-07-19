@@ -17,8 +17,8 @@ class Solution:
                 inIdx -= 1
                 return None
             
-            root = TreeNode(postorder[postIdx])
-            postIdx -= 1
+            root = TreeNode(postorder[postIdx]) #last indx of postorder will always be the root
+            postIdx -= 1                        #decrement the index as we are reversing
             # Build right first, then left! (since postorder is L-R-root, and we're going backwards)
             root.right = dfs(root.val)
             root.left = dfs(limit)
