@@ -38,7 +38,15 @@ class Solution:
 #The queue (q) at most holds one level of nodes at a time (up to O(n) in the worst case).
 #The result list (res) holds every node once (O(n)).  Total: O(n)
 
-#Dry Run:
+"""Step-by-step BFS Process
+Start:Queue: [3] Result: []
+# Level 1: Nodes at this level: 1 (only 3) Pop 3 from queue → Add value 3 to level list: [3]
+#Add children of 3:  Left child 9 → queue: [9] Right child 20 → queue: [9, 20] Add [3] to result: [[3]]
+#Level 2: Nodes at this level: 2 (9, 20) Pop 9 → Add value 9 to level: [9] 9 has no children Pop 20 → Add value 20 to level: [9, 20] 
+#Add 20's children: Left child 15 → queue: [15] Right child 7 → queue: [15, 7] Add [9, 20] to result: [[3], [9, 20]]
+# Level 3: Nodes at this level: 2 (15, 7) Pop 15 → Add value 15 to level: [15] (no children) Pop 7 → Add value 7 to level: [15, 7] (no children) Add [15, 7] to result: [[3], [9, 20], [15, 7]]
+#Queue is empty: BFS complete Result (top-down): [[3], [9, 20], [15, 7]]
+# Reverse for bottom-up: Final output: [[15, 7], [9, 20], [3]]"""
 
 
 
