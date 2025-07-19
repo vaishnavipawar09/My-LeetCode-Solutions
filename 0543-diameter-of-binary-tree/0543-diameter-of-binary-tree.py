@@ -95,4 +95,11 @@ Recursively get the depth of left and right subtrees.
 Update the diameter if left_depth + right_depth is greater than current max.
 Return 1 + max(left_depth, right_depth) for recursion.
 
+Step 6: Dry Run (for example 1: root = [1,2,3,4,5])
+At node 4: left=0, right=0 → diameter = max(0, 0+0) = 0 → returns 1
+At node 5: left=0, right=0 → diameter = max(0, 0+0) = 0 → returns 1
+At node 2: left=1, right=1 → diameter = max(0, 1+1) = 2 → returns 2
+At node 3: left=0, right=0 → diameter = max(2, 0+0) = 2 → returns 1
+At node 1: left=2, right=1 → diameter = max(2, 2+1) = 3 → returns 3
+Return value: 3
 """
