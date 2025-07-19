@@ -29,8 +29,8 @@ class Solution:
         return res     # The result holds the largest diameter found
 
 
-    #Time Complexity: O(n) 
-    #Space Complexity: O(n)  
+    #Time Complexity: O(n)  Each node is visited exactly once.
+    #Space Complexity: O(n)  h = height of the tree (due to recursion stack; O(n) in worst case for skewed tree).
 
 '''
 #Method 2 : Iterative DFS using Stack and hashmap
@@ -64,3 +64,35 @@ class Solution:
     #Space Complexity: O(n)  
 
     '''
+
+
+"""
+Step 1: Clarifying Questions
+Is the input always a valid binary tree (no cycles, connected)? Yes, assume the input is a valid binary tree.
+How is the input provided? As a TreeNode (LeetCode standard), not as an array.
+What should I return if the tree only has one node? Return 0 (since the diameter is the number of edges in the longest path, a single node has 0 edges).
+Can node values be negative or duplicated? Node values can be any integer (irrelevant for this problem; only structure matters).
+Are all nodes unique? Yes, but again, node values don't affect the diameter.
+
+Step 2: Test Cases / Edge Cases
+root = [1] → Output: 0 (Single node, diameter = 0)
+root = [1,2] → Output: 1 (Path: [2,1])
+root = [1,2,3,4,5]
+
+        1
+       / \
+      2   3
+     / \
+    4   5
+Longest path: [4,2,1,3] (edges = 3)
+
+Step 3: Approach / Pseudocode
+The diameter is the longest path between any two nodes (measured by edges).
+For each node, the longest path passing through it = (max depth of left subtree) + (max depth of right subtree).
+Use DFS (post-order traversal):
+For each node:
+Recursively get the depth of left and right subtrees.
+Update the diameter if left_depth + right_depth is greater than current max.
+Return 1 + max(left_depth, right_depth) for recursion.
+
+"""
