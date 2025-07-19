@@ -58,7 +58,7 @@ class Solution:
         preIdx = inIdx = 0                  #start the two ptr at the start
 
         def dfs(limit):                     #create the helper function
-            nonlocal preIdx, inIdx          #set to nonlocal
+            nonlocal preIdx, inIdx          #set to nonlocal  lets us update the indexes across recursive calls.
 
             if preIdx >= len(preorder):     #condition to cal the left subtree, if it goes over the len return None
                 return None
@@ -68,13 +68,34 @@ class Solution:
 
             root = TreeNode(preorder[preIdx])   #set root at start, which will at the start of preorder
             preIdx += 1                         #move through the preorder list
-            root.left = dfs(root.val)           #recursion to create the left subtree
-            root.right = dfs(limit)             #recursion to create the right subtree
+            root.left = dfs(root.val)           #recursion to create the left subtree Build everything before this root in inorder traversal (limit is root's value).
+            root.right = dfs(limit)             #recursion to create the right subtree  Build everything up to the outer limit (i.e., whatever our parent’s limit was).
             return root                         #return the root
-        return dfs(float('inf'))                #return and close the function
+        return dfs(float('inf'))                #return and close the function 
+                                                #Start building the entire tree, and use an impossible value (inf) as the "outermost" limit so we never stop early.
+
+
         
 
 #Time Complexity: O(n)
 #Space Complexity: O(n)
+
+Let’s do a small dry run for preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]:
+First call: dfs(float('inf'))
+preIdx = 0, so root = TreeNode(3)
+Build root.left = dfs(3)
+preIdx = 1, so root = TreeNode(9)
+Build root.left = dfs(9) (but inorder[inIdx] == 9, stop!)
+Build root.right = dfs(3) (but inorder[inIdx] == 3, stop!)
+So 9 has no children.
+Build root.right = dfs(float('inf'))
+Next root is 20, and so on…
+
+Why Is This Optimal?
+No slicing or copying arrays—just index updates, which is O(1).
+Each node is visited exactly once (O(n) time and space).
+
+How to Remember
+“Rebuild the tree recursively, using preorder to pick the root, and use a 'limit' in inorder to know when a subtree ends. Move pointers instead of slicing arrays.”
 
 """
