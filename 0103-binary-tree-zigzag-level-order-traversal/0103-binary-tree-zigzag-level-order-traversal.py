@@ -31,8 +31,16 @@ class Solution:
 
         return res              #return the max level
 
-#Time Complexity:
+#Time Complexity:  O(n)
+#Outer while loop: Runs once for each node in the tree, since each node is visited exactly once.
+#Inner for loop: For all levels combined, each node is added to and removed from the queue exactly once.
+#level = list(reversed(level)): For each level, reversing takes O(k), where k is the number of nodes in that level. Summed over all levels, this is O(n), because the total number of nodes is n.
+#Other operations (append, pop):All are O(1).
+#So, the total time complexity is:O(n) + O(n) = O(n), where n is the number of nodes in the tree.
 
+#Space Complexity:  O(n)
+#Queue and Result List:The largest number of nodes in the queue (and in level) at any point is the width of the tree, which is at most O(n) in the worst case (e.g., a completely unbalanced tree).
+# Result list (res):Stores all node values once: O(n). So, space complexity is also O(n).
 
 #Clarifying questions:
 #Is the input always a valid binary tree (no cycles)?
@@ -40,7 +48,6 @@ class Solution:
 #What should I return if the tree is empty?
 #Can node values be negative or duplicated?
 #Is “zigzag” strictly alternating left-to-right and right-to-left at each level?
-
 
 # root = [3,9,20,null,null,15,7] -> Output: [[3],[20,9],[15,7]]
 #root = [1] ->[[1]] 
