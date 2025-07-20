@@ -40,7 +40,8 @@ class Solution:
 # res = [-10], dfs(9) -> res = [9]
 # dfs(20) _>  dfs(15) res = 15, dfs(7) res = 15
 #dfs(20) = max(20, 42) res = 42
-#dfs(-10) = max(-10, 9, 42) res = 42
+#dfs(-10): left=9, right=42, but single path max is max(-10+9, -10+42, -10) = 32, but global max is still 42
+#So, final res = 42.
 
 
 """
