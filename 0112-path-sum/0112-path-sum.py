@@ -9,6 +9,8 @@ class Solution:
         if not root:
             return False
         
+        #not root.left and not root.right checks if the current node is a leaf node.
+        #a leaf is a node with no children (neither left nor right).So:, root.left is None (no left child), root.right is None (no right child)
         if not root.left and not root.right:    ## If this is a leaf node, check if the value matches the remaining targetSum
             return root.val == targetSum
         return (self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val))
