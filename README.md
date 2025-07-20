@@ -107,6 +107,7 @@
 | [0797-rabbits-in-forest](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0816-design-hashset](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0816-design-hashset) |
 | [1023-time-based-key-value-store](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1023-time-based-key-value-store) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1500-count-largest-group](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1500-count-largest-group) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -135,6 +136,7 @@
 | [0883-car-fleet](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -539,6 +541,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -611,6 +614,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -644,6 +648,7 @@
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -675,6 +680,7 @@
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## String Matching
