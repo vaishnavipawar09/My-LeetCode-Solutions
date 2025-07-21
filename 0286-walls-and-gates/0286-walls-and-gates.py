@@ -46,10 +46,10 @@ class Solution:
 # -------------------------------------------
         # Dry Run (inline for an example):
         # Input: rooms = [
-        #   [INF, -1, 0, INF],
-        #   [INF, INF, INF, -1],
-        #   [INF, -1, INF, -1],
-        #   [0, -1, INF, INF]
+        #   [INF, -1,  0     INF],
+        #   [INF, INF, INF,  -1],
+        #   [INF, -1,  INF,  -1],
+        #   [0, -  1,  INF,  INF]
         # ]
         #
         # 1. Enqueue all gates: positions (0,2) and (3,0)
