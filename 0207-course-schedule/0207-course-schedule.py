@@ -1,5 +1,33 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        preMap = {i : [] for i in range(numCourses)}
+        for crs, pre in prerequisites:
+            preMap[crs].append(pre)
+
+        visitSet = set()
+        def dfs(crs):
+            if crs in visitSet:
+                return False
+            if preMap[crs] == []:
+                return True
+
+            visitSet.add(crs)
+            for pre in preMap[crs]:
+                if not dfs(pre): return False
+            visitSet.remove(crs)
+            preMap[crs] = []
+            return True
+
+        for crs in range(numCourses):
+            if not dfs(crs): return False
+        return True
+
+
+
+""""
+
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         # Create an adjacency list to map each course to its prerequisites
         preMap = { i : [] for i in range(numCourses) }
         for crs, pre in prerequisites:
@@ -32,6 +60,14 @@ class Solution:
             if not dfs(c):
                 return False
         return True
+
+"""
+#Clarifying Questions:
+#Are the pairs of prerequisities unique? Yes
+#Can there be duplicates or self loop pre requisites? No self loops
+#ca there be courses with no pre requisites? yes
+#is there always at least one course? 
+#Are cycles possible in the pre requisites
 
 # ---------------------------------------------------------
 # IMPLEMENTATION STEPS (in comments for your notes):
