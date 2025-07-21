@@ -114,5 +114,10 @@ class Solution:
 
 #Clarifying questions:
 #1. Can i move diagonally ? No
+#Can we modify the input grid? yes
+#is the grid always rectangular and non empty? Yes
 #
+
+#“For every cell, run DFS to sink all connected lands, and count how many times you start DFS—that’s the number of islands.”
+
   """      
