@@ -1,3 +1,8 @@
+#clarifying questions:
+#Can oranges rot diagonally? no
+#is an empty cell(0c) traversal? no
+#should we return -1 if any fresh oragane is unreachable? yes
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         # 1. Initialize variables and helper data
@@ -18,7 +23,7 @@ class Solution:
 
         # 3. BFS: For each minute, process all rotten oranges currently in the queue
         while q and fresh > 0:
-            for _ in range(len(q)):   # Only process oranges that are rotten at the current minute
+            for i in range(len(q)):   # Only process oranges that are rotten at the current minute
                 r, c = q.popleft()
                 for dr, dc in directions:
                     nr, nc = r + dr, c + dc
@@ -57,3 +62,5 @@ class Solution:
         # End: fresh=0, time=4 → Output: 4
 
         # If any fresh orange cannot be reached, e.g. surrounded by walls, returns -1
+
+        #“Start BFS from all rotten oranges. For each minute, rot all adjacent fresh oranges. Count minutes. If any fresh left at the end, return -1.”
