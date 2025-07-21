@@ -70,6 +70,14 @@ class Solution:
 
 
 """
+
+#Clarifying Questions:
+# What counts as an island? 1
+#Can we modify the grid? yes
+#Return 0 if empty grid? yes
+
+#Scan every cell. If you find a ‘1’, run DFS/BFS to explore the island, count the area, and mark as visited. Track the max area found. 
+
 #BFS Approach : Iterative
 from collections import deque
 
