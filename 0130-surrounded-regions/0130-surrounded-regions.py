@@ -79,3 +79,23 @@ class Solution:
         # Space Complexity:
         # - O(1) if we ignore recursion stack (in-place).
         # - O(m * n) in the worst case for recursion stack in DFS (all 'O's).
+
+#Can the board be empty or is it always at least 1x1?
+#Are all cells guaranteed to be either 'X' or 'O'?
+#Are diagonal connections allowed, or only 4-directional (up, down, left, right)?
+#Should regions on the edge (touching the border) ever be converted? (Confirm: NO, they should NOT)
+#Should the solution be in-place or can I use extra space?
+#Is the input board always rectangular?
+#Is the board always mutable?
+
+"""
+Approach (Intuition + Steps)
+Goal: Flip all 'O' regions that are completely surrounded by 'X' (not connected to any border) to 'X'.
+Observation: Any 'O' connected to the border can never be flipped.
+
+Solution:
+Step 1: Iterate over the border cells, and for every 'O', mark it (and all connected 'O's) as safe (e.g., change to a temp marker like 'E').
+Step 2: After marking, iterate over the board:
+Convert all unmarked 'O' to 'X' (these are surrounded).
+Convert all 'E' back to 'O' (these were edge-connected).
+"""
