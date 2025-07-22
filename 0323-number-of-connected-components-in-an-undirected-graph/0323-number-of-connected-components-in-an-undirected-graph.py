@@ -105,6 +105,33 @@ class Solution:
 
         return res  # Number of connected components
 
+
+"""
+1. Clarifying Questions
+Is the graph undirected? (Yes, typical for this problem)
+Can there be isolated nodes (nodes with no edges)? (Yes)
+Are the node labels guaranteed to be from 0 to n-1 with no gaps? (Yes, as per constraints)
+Can the edges list be empty? (Yes, possible)
+
+2. Test Cases
+Case 1:
+n = 3, edges = []
+All nodes are isolated, so answer = 3.
+
+Case 2:
+n = 3, edges = [[0,1], [1,2]]
+Single component: 0-1-2, answer = 1.
+
+Case 3:
+n = 4, edges = [[0,1],[2,3]]
+Two components: 0-1 and 2-3, answer = 2.
+
+Case 4:
+n = 1, edges = []
+Only one node, answer = 1.
+
+
+"""
 # ----------------------------------------------------
 # Implementation Steps (in code comments):
 
