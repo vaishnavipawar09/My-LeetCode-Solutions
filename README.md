@@ -550,6 +550,7 @@
 | [0922-possible-bipartition](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0922-possible-bipartition) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -563,6 +564,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0820-find-eventual-safe-states](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0922-possible-bipartition](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0922-possible-bipartition) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 ## Stack
 |  |
