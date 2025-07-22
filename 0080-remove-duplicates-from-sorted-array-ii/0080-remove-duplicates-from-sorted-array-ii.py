@@ -25,3 +25,12 @@ class Solution:
 # k = 4, i =5, 5<6, 4< 2 no, else nums[5] != nums[2] 3!= 2, yes, nums[4] = 3, k = 5 nums = [1, 1, 2, 2, 3, 3]
 # k = 5 , i =6, 6< 6 no, break out of for loop return k , here k is 5
 #Output = 5
+
+
+"""
+#Clarifying Questions
+Can I use extra space?No, must be in-place.
+Is the array always sorted?Yes, non-decreasing.
+What do I return?Return the count of unique elements (k).
+Do I need to care about what is in nums after the first k elements?No, can be anything.
+"""
