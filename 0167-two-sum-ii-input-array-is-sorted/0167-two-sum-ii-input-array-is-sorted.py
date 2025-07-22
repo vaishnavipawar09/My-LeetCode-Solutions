@@ -12,7 +12,7 @@ class Solution:
         return []
 
 #Time Complexity: O(n)    Loops through the array of n intergers
-#Space Complexity: O(1)   No extra space needed
+#Space Complexity: O(1)   No extra space needed, only two pointers
 
       
 #Dry Run, numbers = [2, 7, 11, 15], target = 9
@@ -23,3 +23,33 @@ class Solution:
 # With -ve and 0 , numbers = [-1, 0, 1] Target = -1
 # 1. l = 0, r = 2, 0< 2 yes, currsum = 0, 0 ==-1 no, 0< -1 no , else r = 1
 # 2. l = 0, r = 1, 0< 1 yes, currsum = -1, -1 == -1 yes, return [1, 2]
+
+
+"""
+1. Clarifying Questions
+Is the array sorted? Yes
+Can I use extra space? No, must be O(1) space
+Are negative numbers allowed? Yes
+Will there always be exactly one solution? Yes, per constraints
+Indices should be 1-based, right? Yes
+
+2. Test Cases
+[2,7,11,15], target=9 → [1,2]
+[2,3,4], target=6 → [1,3]
+[-1,0], target=-1 → [1,2]
+[1,2,3,4,4], target=8 → [4,5]
+
+3. Approach
+Since the array is sorted, use two pointers:
+left at 0 (start), right at len(numbers)-1 (end)
+While left < right:
+Calculate sum = numbers[left] + numbers[right]
+If sum == target: return [left+1, right+1] (convert to 1-based)
+If sum < target: move left forward
+If sum > target: move right backward
+
+5. Edge Cases
+Only two elements (always valid per constraints).
+Target sum is negative or zero.
+Large numbers at array ends.
+"""
