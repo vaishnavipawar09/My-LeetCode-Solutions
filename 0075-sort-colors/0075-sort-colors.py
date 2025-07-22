@@ -2,6 +2,7 @@ class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
+        #This is using the same idea of Partition using of Quick Sort 
         """
         l, r = 0, len(nums)-1
         i = 0
