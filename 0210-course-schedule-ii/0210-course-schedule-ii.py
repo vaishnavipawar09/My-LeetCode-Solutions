@@ -58,3 +58,20 @@ class Solution:
         # Space Complexity: O(V + E)
         # - The adjacency list stores up to E edges
         # - The recursion stack and sets can use up to V space
+
+
+"""
+Are the courses always labeled from 0 to numCourses-1? Yes.
+Can there be more than one valid answer? Yes, any valid topological order is accepted.
+Is it guaranteed that there are no duplicate or self-loop prerequisites? Yes, all pairs [ai, bi] are distinct and ai ≠ bi.
+What to return if it’s not possible to finish all courses? Return an empty list.
+
+Approach: Kahn’s Algorithm (BFS Topological Sort)
+Build graph & indegrees:
+For each prerequisite [a, b], add edge b → a (to take a, must take b first).
+Track indegree for each course.
+Start with all courses with indegree 0 (no prerequisites).
+Pop from queue, add to order, and reduce indegree of neighbors.
+If order includes all courses, return it; otherwise, cycle exists, return [].
+
+"""
