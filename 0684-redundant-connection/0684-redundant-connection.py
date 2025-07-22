@@ -55,3 +55,30 @@ class Solution:
 # - O(N) for parent and rank arrays.
 
 # -----------------------------------------------------
+"""
+1. Approach
+Each node starts in its own component (root = itself).
+For each edge, union the two nodes (connect their roots).
+At the end, count how many unique roots there are. That’s your number of components.
+
+3. Why Union Find?
+Super fast: Nearly O(1) per operation with path compression.
+Handles large, dynamic graphs well.
+Easy to code and explain in interviews.
+
+4. Dry Run Example
+n = 5, edges = [[0,1],[1,2],[3,4]]
+Initially: parent = [0,1,2,3,4]
+union(0,1): parent[1]=0 → [0,0,2,3,4]
+union(1,2): find(1)=0, find(2)=2 → parent[2]=0 → [0,0,0,3,4]
+uion(3,4): parent[4]=3 → [0,0,0,3,3]
+Unique roots: {0,3} → 2 components
+
+5. Edge Cases
+No edges: every node is its own component (answer = n)
+All nodes connected: one component
+
+One-liner to Remember:
+"Union all nodes by edges, then count unique parents for number of components."
+
+"""
