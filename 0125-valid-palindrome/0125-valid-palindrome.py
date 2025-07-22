@@ -22,8 +22,8 @@ class Solution:
                     ord('a')<= ord(c)<= ord('z') or 
                     ord('0')<= ord(c)<= ord('9'))
 
-  #Time Complexity: O(n)
-  #space complexity : O(1)
+  #Time Complexity: O(n),  where n is the length of s (each char visited at most once)
+  #space complexity : O(1), since no extra storage
 
 
 #Dry RUn:
@@ -34,6 +34,18 @@ class Solution:
 #2< 7 , c =c , l =3, r = 6
 #3< 6, r not alphanumeric, r = 5
 #3< 5 , e != a , return False
+
+"""
+#Should we ignore case? (Yes, treat 'A' and 'a' as the same)
+Ignore non-alphanumeric? (Yes, only letters and numbers matter)
+Empty string? (Yes, that counts as a palindrome: return True)
+Should I consider Unicode, or only ASCII? (Problem says only printable ASCII)
+Can string contain only spaces or punctuation? (Yes, should still return True if, after removing, it's empty.)
+
+Approach
+Normalize: Remove non-alphanumeric and convert to lowercase.
+Check palindrome: Use two-pointer method (left, right) to compare characters inward.
+"""
 
 """
 Solution 1: Uses a lot of functions, and we use extra memory 
