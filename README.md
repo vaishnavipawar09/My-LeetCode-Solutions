@@ -382,6 +382,7 @@
 | [0200-number-of-islands](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0922-possible-bipartition](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0922-possible-bipartition) |
 ## Dynamic Programming
@@ -543,6 +544,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0684-redundant-connection](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0733-flood-fill) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -562,6 +564,7 @@
 | [0210-course-schedule-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0922-possible-bipartition](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0922-possible-bipartition) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -660,6 +663,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0684-redundant-connection](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0820-find-eventual-safe-states) |
