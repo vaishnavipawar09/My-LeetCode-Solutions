@@ -1,17 +1,17 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         # Initialize the starting index and max length of result substring
-        resIdx = 0
+        resIdx = ""
         resLen = 0
 
         # Loop over each character in the string to consider it as a potential center
         for i in range(len(s)):
             # --- Check for odd-length palindromes (single center) ---
-            l, r = i, i
+            l, r = i, i     # center position 
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 # If this palindrome is longer than current result, update result
                 if (r - l + 1) > resLen:
-                    resIdx = l
+                    resIdx = s[l: r +1]
                     resLen = r - l + 1
                 l -= 1
                 r += 1
@@ -20,13 +20,13 @@ class Solution:
             l, r = i, i + 1
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if (r - l + 1) > resLen:
-                    resIdx = l
+                    resIdx = s[l :r +1]
                     resLen = r - l + 1
                 l -= 1
                 r += 1
 
         # Return the substring that is the longest palindrome
-        return s[resIdx : resIdx + resLen]
+        return resIdx
 
         '''
         --- Implementation Steps ---
