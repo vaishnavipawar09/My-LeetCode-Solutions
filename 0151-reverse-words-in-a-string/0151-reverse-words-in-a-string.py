@@ -47,4 +47,21 @@ class Solution:
         
         return ''.join(chars)
 
-        
+#Time Complexity : O(n)
+#Space Complexity : O(1)
+        """
+        Step-by-step Explanation for Two Pointer Approach
+1. Remove Extra Spaces
+Use two pointers (read, write) to overwrite extra spaces as you build a new array in-place:
+Skip leading spaces.
+For each word, copy chars to the write position.
+Insert a single space between words.
+Skip multiple spaces.
+
+2. Reverse the Entire String
+Use two pointers (left, right) to reverse the entire array.
+
+3. Reverse Each Word
+For each word segment (bounded by spaces), reverse it using two pointers.
+
+"""
