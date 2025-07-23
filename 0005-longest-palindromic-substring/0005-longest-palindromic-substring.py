@@ -49,7 +49,7 @@ class Solution:
             Odd: l=r=2 ("b"), resLen=3. Expand to l=1, r=3 ("aba") - palindrome, but same length as current, no update.
             Even: l=2, r=3 ("ba") -- not a palindrome
         i = 3:
-            Odd: l=r=3 ("a"), resLen=3. Expand to l=2, r=4 ("ada") - palindrome, but not longer.
+            Odd: l=r=3 ("a"), resLen=3. Expand to l=2, r=4 ("bad") - not a palindrome
             Even: l=3, r=4 ("ad") -- not a palindrome
         i = 4:
             Odd: l=r=4 ("d"), no update.
