@@ -21,7 +21,13 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Complexity: O(1)
-
+# Dry Run:
+#[4, 2, 0, 3, 2, 5]
+# l = 0, r = 5 maxleft = 4, maxright = 5, res = 0, 0< 5 yes, 4< 5: l = 1, leftmax = 4, res = 4-2 = 2
+# l = 1, r = 5, maxleft = 4., rightmax = 5, 4< 5, l = 2, leftmax= 4, res = 4- 0 = 4 res = 4=2 = 6
+# l = 2, r = 5, maxl =4, maxr= 5, 4< 5, l = 3, maxl = 4, res = 4 - 3 =1, = 6 = 7
+# l = 3, r = 5, maxl= 4, maxr = 5, 4< 5, l = 4, res = 4 - 2 = 2 + 7 = 9
+# l = 5, r = 5, loop ends res = 9 which is the output! 
         """ Solved: 
         if not height: return 0
         
