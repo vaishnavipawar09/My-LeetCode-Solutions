@@ -133,6 +133,7 @@
 | [0049-group-anagrams](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
@@ -230,6 +231,7 @@
 | [0125-valid-palindrome](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0189-rotate-array) |
@@ -299,6 +301,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
@@ -323,6 +326,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/2280-count-good-triplets-in-an-array) |
 ## Bucket Sort
@@ -357,6 +361,7 @@
 | [0141-linked-list-cycle](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0355-design-twitter](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0355-design-twitter) |
