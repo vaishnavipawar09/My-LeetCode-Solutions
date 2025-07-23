@@ -43,6 +43,7 @@
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
@@ -233,6 +234,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0392-is-subsequence) |
