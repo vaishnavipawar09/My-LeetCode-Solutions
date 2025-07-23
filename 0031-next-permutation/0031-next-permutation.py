@@ -12,6 +12,8 @@ class Solution:
         nums[i + 1:] = reversed(nums[i + 1:])
 
 """
+[1, 2, 3]
+i = 2
 Start from the end: 2 < 3, so i = 1.
 Find next biggest: 3 > 2, so j = 2.
 Swap: [1, 3, 2].
