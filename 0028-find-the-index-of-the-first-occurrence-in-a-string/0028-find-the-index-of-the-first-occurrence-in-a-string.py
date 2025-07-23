@@ -7,3 +7,6 @@ class Solution:
         
 
 #Range only until the needle, and comapre the haystack has the needle in it by comparison and the needle lrngth , if matches return 1, else return -1
+
+#Time Complexity : O(n) because we check each possible starting index in haystack once
+#Space Complexity : O(1) not using any extra space
