@@ -40,6 +40,7 @@
 | [0213-house-robber-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0274-h-index) |
@@ -104,6 +105,7 @@
 | [0146-lru-cache](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0355-design-twitter) |
@@ -284,6 +286,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0219-contains-duplicate-ii](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/vaishnavipawar09/My-LeetCode-Solutions/tree/master/0567-permutation-in-string) |
