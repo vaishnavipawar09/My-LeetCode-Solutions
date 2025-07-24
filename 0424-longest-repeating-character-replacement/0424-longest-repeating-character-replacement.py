@@ -21,7 +21,13 @@ class Solution:
 #Time Complexity: O(n)
 #Space Complexity : O(m) , m is unique characters
 
-
+#Dry Run
+#ABAB
+# l = 0, r = 0, count= [] mf = 0, count = [A: 1], mf = 1, res = (0, 1) = 1
+# l = 0, r = 1, count = [A: 1, B: 1] mf = 2  (1-0 + 1) = 2-2 0 <= k, res = (1, 1-0+1) = 1
+# l = 0, r = 2, count = [A: 2, B:1] mf = 2 (2-0+1) - 2 <= k, (3-2= 1) 1<=k , res = (1, 2-0+1) = (1, 3) = 3
+# l = 0, r = 3, count = [A:2, B:2] mf = 2 (3-0 +1)= 4-2 <=k, valid res (3, 3-0+1) = (3, 4) = 4
+# res = 4
 """
 Method: Main code to understand completely : O(26. n)
 class Solution:
