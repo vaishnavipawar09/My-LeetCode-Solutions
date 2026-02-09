@@ -9,8 +9,21 @@ class Solution:
             h_map[n] = i                    #Store the value in the hashmap
         return 0
 
-#Time Complexity: O(n) 
-#Space Complexity: O(n)
+#Time Complexity: O(n) , Single pass through the array, Hash map lookups are O(1) average
+#Space Complexity: O(n), in the worst case, we store all elements in the hash map
+
+#Dry Run
+#nums = [2,7,11,15], target = 9
+# 1. i = 0, n = 2, diff = 9-2 = 7, 7 in h_map? no so h_map[2] = 0, h_map = {2}
+# 2. i = 1, n = 7, diff = 9-7 = 2, 2 in h_map yes, return [h_map[2], 1] = [0, 1]
+# Output = [0, 1]
+
+
+#Pattern - Complement HashMap Pattern
+#Use when: 1. You need two elements with a target relationship
+# 2. Order doesn’t matter
+# 3. You need indices
+# 4. You want better than O(n²)
 
     """ Brute Force Method:
 
