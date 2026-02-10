@@ -1,29 +1,30 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        res = defaultdict(list)                 #Default list (hashmap), mapping chars cnt to list of anagrams
-        for s in strs:                          #Go through the input string 
-            count =[0] * 26                     #Count charaters (a .....z)
-            for c in s:                         # Map the characters to the index
-                count[ord(c) - ord("a")] += 1   #eg a=80, 80-80 = 0, maps it at 0, and later increments the counter
-            res[tuple(count)].append(s)         #list cant be keys so tuple, as it is non muttable
+        hashmap = defaultdict(list)     #create a default dict hashmap
 
-        return list(res.values())               #return the anagrams grouped together
+        for words in strs:              # for each word in the string
+            count = [0] * 26            #cal the freq of each word
 
-# Time Complexity : O( m * n * 26) = O(m*n), m is number of input string & n is the avg len of string 
+            for ch in words:            #for each character in the word
+                count[ord(ch) - ord("a")] += 1      # cal the fre of each char in word
+            
+            hashmap[tuple(count)].append(words)     #add the freq and char in the hashmap
+        
+        return list(hashmap.values())   #return the group of anagrams
 
-# Space Complexity: O(m) extra space
-#                   O(m * n ) space for the outut list        
+# Time: O(n * k), n = number of strings, k = max length of a string (≤ 100)
+# Space: O(n * k)  Storing frequency keys + grouped strings
 
-"""
-Method 1 Sorting 
-class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        res = defaultdict(list)
-        for s in strs:
-            sortedS = ''.join(sorted(s))
-            res[sortedS].append(s)
-        return list(res.values())
+#Dry Run:["eat","tea","tan","ate","nat","bat"]
+# "eat" → (1,0,0,0,1,0,...,1) → bucket A
+# "tea" → same tuple → bucket A
+# "ate" → same tuple → bucket A
+# "tan" → different tuple → bucket B
+# "nat" → same as "tan" → bucket B
+# "bat" → unique tuple → bucket C
+# Output : [["eat","tea","ate"], ["tan","nat"], ["bat"]]
 
-Time Complexity: O(m * nlog n)
-Space Complexity: O(m * n)
-"""
+#Pattern : Canonical Representation → Hashmap Grouping
+# Use this when: 1. You need to group items
+# 2. Order doesn’t matter
+# 3. You can compute a unique “signature” for each group
