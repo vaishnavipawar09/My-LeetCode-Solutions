@@ -1,47 +1,39 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        count = {}                                  #Create a Hashmap
-        freq = [[] for i in range(len(nums)+1)]     #Lit of values that occur (Frequency) (Bucket SOrt setup)
-                                                    #Need len(nums)+1 buckets cause max freq of any num = len(nums)
+        # Step 1: Count frequency of each number
+        hashmap = {}
+        for num in nums:            #for each num in the array check if exists in hashmap
+            if num in hashmap:      #if yes, increase the value of it 
+                hashmap[num] += 1
+            else:                   #if no, it is new, add it into hashmap
+                hashmap[num] = 1
 
-        for n in nums:
-            count[n] = 1+ count.get(n, 0)           #Append in the Hashmap
-        for n, c in count.items():                  #Return the key value pair 
-            freq[c].append(n)                       #Fill the bucket
-                                                    #For each number and its count, put it in the freq[count] bucket.
-        
+        # Step 2: Create buckets where index = frequency
+        freq = [[] for _ in range(len(nums) + 1)]
 
-        res=[]
-        for i in range(len(freq) - 1, 0, -1):       #Iterate in Descending order
-            for n in freq[i]:
-                res.append(n)                       #Keep collecting until you have k elements
-                if len(res) == k:                   #Check if k is satisfied
+        # Step 3: Fill the buckets
+        for num, count in hashmap.items():
+            freq[count].append(num)
+
+        # Step 4: Extract top k frequent elements
+        res = []
+        for i in range(len(freq) - 1, 0, -1):       #start the loop in backward direction high freq
+            for num in freq[i]:                     #loop over nums, and add it to res
+                res.append(num)
+                if len(res) == k:                   #stop wen we acheve the top k elements
                     return res
 
-#Time complexity: O(n),    How? Count = O(n) Bucket fill = O(n) Result collection = O(n), worst-case if k = n
-#Space Complexity: O(n),   Hashmap + buckets + result list
+#Time: O(n),    Count → O(n),   Fill buckets → O(n).    Scan buckets → O(n)
+#Space: O(n)    Hashmap + buckets
 
-"""
-Brute force Using Sorting:
+#Dry Run:
+# nums = [1,1,1,2,2,3], k = 2
+# hashmap = { 1: 3, 2: 2, 3: 1}, freq[1] = 3, freq[2] = 2, freq[3] = 1
+# res = [], start from last freq
+# res = [1, 2]      res == k so stop
+# Output : res = [1, 2]
 
-class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        count = {}
-        for num in nums:                            #To count the frequency of number
-            count[num] = 1 + count.get(num, 0)
-
-        arr = []
-        for num, cnt in count.items():              #convert frequency map into a list of [frequency, number] pairs
-            arr.append([cnt, num])
-        arr.sort()                                  #Sort the Array
-
-        res = []
-        while len(res) < k:
-            res.append(arr.pop()[1])                #Pick Top k from the End
-        return res
-
-#Time Complexity: O(n.logn)
-#Space Complexity : O(n)
-
-"""
-        
+#Pattern: Frequency Counting + Bucket Sort (by frequency)
+#Use this when: 1. You need top K
+# 2. Sorting is too slow
+# 3. Frequencies are bounded by n
