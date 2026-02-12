@@ -17,7 +17,12 @@ class Solution:
 #k = 2, nums = [1, 2]
 
 
-#Pattern:?
+#Pattern: Two Pointers (Slow–Fast Pointer Pattern), In-place array compaction on sorted input
+# Use this when: 1.Array is sorted
+# 2. You must remove elements in-place
+# 3. You must preserve order
+# 4. No extra space allowed
+
 """
 Method 2:
 class Solution:
