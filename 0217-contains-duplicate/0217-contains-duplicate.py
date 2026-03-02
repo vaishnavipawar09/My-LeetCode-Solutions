@@ -1,3 +1,4 @@
+"""
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()         #Create a hashset for easy lookups
@@ -22,3 +23,13 @@ class Solution:
 # 1. You need to know if something appeared earlier
 # 2. Order doesn’t matter
 # 3. Fast lookup is required
+
+"""
+class Solution:
+    def containsDuplicate(self, nums:List[int]) -> bool:
+        hashset = set()
+        for i in nums:
+            if i in hashset:
+                return True
+            hashset.add(i)
+        return False
